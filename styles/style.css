@@ -10,17 +10,68 @@ body {
   background-color: #121417;
 }
 
-.rating {
-  background-color: #252d37;
-  margin: 20px;
+main {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  height: 360px;
+  min-height: 100vh;
+}
+
+.rating {
+  margin: 25px;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: #202731;
+  width: 360px;
 }
 .rating .star {
-  justify-content: start;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 60px;
+  /* Adjust the width to change the size */
+  height: 60px;
+  /* Adjust the height to change the size */
+  background-color: #252e37;
+}
+.rating .star img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.rating .text-block {
+  margin-top: 30px;
+}
+.rating .text-block p {
+  margin-top: 25px;
+  color: #959eac;
+}
+.rating .numbers {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+.rating .numbers button {
+  background-color: #252e37;
+  border: none;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  color: #959eac;
+}
+.rating .submit-button {
+  border: none;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+}
+.rating .submit-button button {
+  background-color: #FC7614;
+  border: none;
+  padding: 15px;
+  width: 100%;
+  border-radius: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */
