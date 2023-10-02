@@ -71,6 +71,12 @@ main {
 		}
 	}
 
+	.numbers > button:hover {
+		background-color: $c-orange;
+		color: $c-white;
+		cursor: pointer;
+	}
+
 	.submit-button {
 		border: none;
 		width: 100%;
@@ -84,5 +90,11 @@ main {
 			width: 100%;
 			border-radius: 50px;
 		}
+	}
+
+	.submit-button > button:hover {
+		background-color: $c-white;
+		color: $c-orange;
+		cursor: pointer;
 	}
 }

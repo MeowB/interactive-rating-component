@@ -59,6 +59,11 @@ main {
   height: 45px;
   color: #959eac;
 }
+.rating .numbers > button:hover {
+  background-color: #FC7614;
+  color: white;
+  cursor: pointer;
+}
 .rating .submit-button {
   border: none;
   width: 100%;
@@ -72,6 +77,11 @@ main {
   padding: 15px;
   width: 100%;
   border-radius: 50px;
+}
+.rating .submit-button > button:hover {
+  background-color: white;
+  color: #FC7614;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=style.css.map */
