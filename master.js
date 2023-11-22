@@ -12,6 +12,22 @@ for (let i = 0; i < list.length; i++) {
 }
 
 // 3. add an event listener for clics
+list.forEach(button => {
+	button.addEventListener('click', function () {
+		console.log(`Button ${button.textContent} clicked!`)
+
+// 4. change the background of the button that was clicked.
+		list.forEach(buttons => {
+			buttons.classList.remove("active")
+
+		} )
+		button.style.backgroundColor = "red";
+		button.classList.add("active")
+	})
+})
+
+
+
 
 
 // list.forEach(element => {
