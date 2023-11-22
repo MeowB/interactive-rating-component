@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Final solution to come. (git repo)](https://your-solution-url.com)
-- Live Site URL: [Final site to come. (site url)](https://your-live-site-url.com)
+- Solution URL: [Final solution to come. (git repo)](#)
+- Live Site URL: [Final site to come. (site url)](#)
 
 ## My process
 
