@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: 
-- Live Site URL: [Sass](https://meowb.github.io/interactive-rating-component/)
+- Live Site URL: [https://meowb.github.io/interactive-rating-component/](https://meowb.github.io/interactive-rating-component/)
 
 ## My process
 
