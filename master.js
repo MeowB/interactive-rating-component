@@ -9,6 +9,8 @@ let list = document.querySelectorAll(".numbers button");
 for (let i = 0; i < list.length; i++) {
 	let element = list[i];
 	element.classList.add(`button${i}`)
+	element.id = i + 1
+	// console.log(element)
 }
 
 // 3. add an event listener for clics
@@ -29,13 +31,19 @@ list.forEach(button => {
 })
 
 
+// on clic on the submit button, change url parameters to the button id then follow the link
+let buttonSubmit = document.querySelector(".submit-button")
 
+buttonSubmit.addEventListener("click", function () {
+	let value
+	// getting the value of the active button
+	for (let i = 0; i < list.length; i++) {
+		const element = list[i];
+		if(element.classList.contains("active")) {
+		value = element.id	
+		}
+	}
+	
+	console.log(value)
 
-
-
-
-// list.forEach(element => {
-// 	console.log(element)
-// });
-
-// change the color of the buttons based on the active state and react to the user changing the selection of the button.
+})
