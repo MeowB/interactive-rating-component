@@ -68,6 +68,16 @@ main {
 			width: 60px;
 			height: 60px;
 			color: $c-light-grey;
+
+			&:hover {
+				background-color: $c-orange;
+				color: $c-white;
+			}
+			
+			&.active {
+				background-color: $c-orange;
+				color: $c-white;
+			}
 		}
 	}
 

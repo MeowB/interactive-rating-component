@@ -59,6 +59,14 @@ main {
   height: 60px;
   color: #959eac;
 }
+.rating .numbers button:hover {
+  background-color: #FC7614;
+  color: white;
+}
+.rating .numbers button.active {
+  background-color: #FC7614;
+  color: white;
+}
 .rating .numbers > button:hover {
   background-color: #FC7614;
   color: white;
