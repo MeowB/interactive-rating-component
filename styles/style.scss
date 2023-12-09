@@ -108,3 +108,41 @@ main {
 		cursor: pointer;
 	}
 }
+
+// THANKS YOU STATE
+
+.thanksyou {
+	text-align: center;
+
+	img {
+		margin: 45px 0 15px 0;
+	}
+
+	.selected {
+		margin: 20px auto 50px auto;
+		width: 50%;
+		background-color: $c-dark-blue;
+		padding: 10px;
+		border-radius: 25px;
+		color: #FC7614;
+	}
+
+	p {
+		color: $c-light-grey;
+		margin: 25px auto;
+	}
+}
+
+
+.attribution { 
+	font-size: 11px; 
+	text-align: center; 
+	position: fixed; 
+	bottom: 0; 
+	width: 100%; 
+	text-align: center;
+}
+
+.attribution a { 
+	color: $c-orange; 
+}
