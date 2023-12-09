@@ -35,15 +35,15 @@ list.forEach(button => {
 let buttonSubmit = document.querySelector(".submit-button")
 
 buttonSubmit.addEventListener("click", function () {
-	let value
+	let value;
 	// getting the value of the active button
 	for (let i = 0; i < list.length; i++) {
 		const element = list[i];
 		if(element.classList.contains("active")) {
-		value = element.id	
+			value = element.id
+			let encodedValue = encodeURIComponent(value);
+			window.location.href = `thanksyou.html?value=${encodedValue}`;
 		}
 	}
 	
-	console.log(value)
-
 })
