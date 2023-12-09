@@ -25,11 +25,11 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot to come.](./#)
+![Screenshot](./images/screenshot.jpg)
 
 ### Links
 
-- Solution URL: 
+- Solution URL: [https://github.com/MeowB/interactive-rating-component/](https://github.com/MeowB/interactive-rating-component/)
 - Live Site URL: [https://meowb.github.io/interactive-rating-component/](https://meowb.github.io/interactive-rating-component/)
 
 ## My process
@@ -43,5 +43,4 @@ Users should be able to:
 
 ## Author
 
-<!-- - Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername) -->
+- Frontend Mentor - [@MeowB](https://www.frontendmentor.io/profile/MeowB)
