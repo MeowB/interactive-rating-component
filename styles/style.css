@@ -85,6 +85,7 @@ main {
   padding: 15px;
   width: 100%;
   border-radius: 50px;
+  font-size: 20px;
 }
 .rating .submit-button > button:hover {
   background-color: white;
